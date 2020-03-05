@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    font-family: 'EB Garamond', serif;
+        }
+/*SKILLS*/
+.skills_container {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 10%;
+}
+
+.skills {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: white;
+    border-radius: 10%;
+    
+}
+ a :link, :hover{
+    text-decoration: none;
+   
+}
+
+/*.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.C {width: 60%; background-color: #808080;}*/
+.html {width: 90%; background-color: #aede86;}
+.css {width: 80%; background-color: #aede86;}
+.js {width: 75%; background-color: #aede86;}
+.C {width: 80%; background-color: #aede86;}
+.react {width: 60%; background-color: #aede86;}
+
+/*HEADER*/
+/* .heading{
+    color: white;
+    background-color:  #c1e6a2;
+} */
+.details_flex{
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 10px;
+    padding: 5px;
+    font-size: 20px;
+    justify-content: center;
+    color: grey;
+}
+.heading > div{
+    color: white;
+    background-color: #7ce2e0;
+    padding: 60px;
+    text-align: center;
+    margin-bottom: -20px; 
+    font-family: 'EB Garamond', serif;
+    
+}
+.heading > h2{
+    font-family: 'EB Garamond', serif;
+    color: white;
+    background-color:  #c1e6a2;
+    padding: 20px;
+    text-align: center; 
+    
+}
+.professional_summary{
+    max-width: 1200px;
+}
+.dp{
+    height: 200px;
+    width: 200px; 
+    padding: 5px;
+    border: 5px solid #7ce2e0 ; 
+    top: 20px;
+    left : 20px;
+    position : absolute;
+}
+/*content*/
+.container{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+    
+}
+.left{
+    width: 300px;
+    padding:10px;
+    margin: 20px; 
+    
+}
+.right{
+    flex-basis: auto;
+    margin: 20px; 
+    padding:10px;
+    align-content: center;
+}
+.education{
+    display: flex;
+    flex-direction: row;
+    font-size: 20px;
+
+}
+.edu_left{
+    padding:5px;
+    flex-grow:1;
+}
+.edu_right{
+    padding: 5px;
+    flex-grow: 3;
+}
+footer{
+    background-image: linear-gradient( #c1e6a2,#7ce2e0);
+    padding: 10px;
+    text-align: center; 
+    justify-content: center;
+}
