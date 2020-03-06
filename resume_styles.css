@@ -17,15 +17,10 @@
     border-radius: 10%;
     
 }
- a :link, :hover{
+a :link, :hover{
     text-decoration: none;
-   
 }
 
-/*.html {width: 90%; background-color: #4CAF50;}
-.css {width: 80%; background-color: #2196F3;}
-.js {width: 65%; background-color: #f44336;}
-.C {width: 60%; background-color: #808080;}*/
 .html {width: 90%; background-color: #aede86;}
 .css {width: 80%; background-color: #aede86;}
 .js {width: 75%; background-color: #aede86;}
@@ -33,10 +28,7 @@
 .react {width: 60%; background-color: #aede86;}
 
 /*HEADER*/
-/* .heading{
-    color: white;
-    background-color:  #c1e6a2;
-} */
+
 .details_flex{
     display: grid;
     grid-auto-flow: column;
@@ -79,7 +71,7 @@
 .container{
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 18px;
     
 }
 .left{
@@ -97,15 +89,15 @@
 .education{
     display: flex;
     flex-direction: row;
-    font-size: 20px;
+    font-size: 18px;
 
 }
 .edu_left{
-    padding:5px;
+    padding: 0 5px;
     flex-grow:1;
 }
 .edu_right{
-    padding: 5px;
+    padding:0 5px;
     flex-grow: 3;
 }
 footer{
