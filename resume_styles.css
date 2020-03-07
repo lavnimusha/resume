@@ -106,7 +106,7 @@ footer{
 }
 
 /*for mobile*/
-@media screen and (min-width: 321px) and (max-width: 480px) {
+@media screen and (min-width: 300px) and (max-width: 568px) {
     .personal_details{
         width: 100%
     }
